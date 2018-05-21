@@ -1,0 +1,38 @@
+echo "# newRepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ganjisrikanth06/newRepo.git
+git push -u origin master
+
+
+git remote add origin https://github.com/ganjisrikanth06/newRepo.git
+git push -u origin master
+
+========================================================================
+0  git init
+  181  ls -a
+  182  touch a{1..5}
+  183  ls
+  184  git status
+  185  git add a1
+  186  git status
+  187  git add a2 a3 a4
+  188  git status
+  189  git commit -m "first commit"
+  190   git config --global user.email ganjisrikanth06@gmail.com
+  191   git config --global user.name "Srikanth"
+  192  git commit -m "first commit"
+  193  git log
+  194  git remote add origin1 https://github.com/ganjisrikanth06/hellorepo.git
+  195  git push -u origin1 master
+  196  git pulll -u origin1 master
+  197  git pull -u origin1 master
+  198  git pull origin1 master
+  199  ls
+  200  git remote add origin https://github.com/ganjisrikanth06/newRepo.git
+  201  git push -u origin master
+  202  git remote add origin https://github.com/ganjisrikanth06/newRepo.git
+  203   git pull origin master
+  204   git pull origin master
+  205  history
